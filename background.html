@@ -1,0 +1,11 @@
+<html>
+<head>
+<script>
+
+	chrome.browserAction.onClicked.addListener(function(tab) {	
+		chrome.tabs.remove(tab.id);
+	});
+  
+</script>
+</head>
+</html>

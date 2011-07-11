@@ -1,0 +1,10 @@
+{
+	"name": "Close Tab Button",
+	"description": "Close Tab Button",
+	"version": "0.1",
+	"permissions": ["tabs"],
+	"background_page": "background.html",
+	"browser_action": {
+		"default_icon": "favicon.png"
+	}
+}
